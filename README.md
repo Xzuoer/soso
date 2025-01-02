@@ -14,7 +14,7 @@
 
 2. 点击`For Program`一键拉高 GitHub、Stackoverflow、v2ex、cnblog 权重，免去手打 site: 的麻烦。
 
-3. 一键搜索 v2ex 、 Raddit
+3. 一键搜索 v2ex 、 Reddit
 
 4. 内置广告屏蔽、跟踪链接移除。
 
@@ -39,7 +39,7 @@
 
 你可以分享这些域名：
 1. 黑名单域名：这些域名会直接被屏蔽
-2. 代码相关的高质量来源：这些域名被视作优质来源，当点击“For Program”标签时优先级会被提高。
+2. 代码相关的高质量来源：这些域名被视作优质来源，当点击 “For Program” 标签时优先级会被提高。
 3. 当然，如果你认为有必要添加新的标签也可以提出来。
 
 ### 当前的缺陷
@@ -71,7 +71,7 @@ Luxirty Search 基于 Google 的可编程自定义搜索引擎(Google cse)，允
 
 # 部署
 
-本质上而言，这是一个简单的 vue3 + vite 项目，因此你应该可以方便地将它部署到任何你喜欢的托管网站，例如 GitHub Pages、netfliy、Cloudflare Pages、vercel之类的。
+本质上而言，这是一个简单的 vue3 + vite 项目，因此你应该可以方便地将它部署到任何你喜欢的托管网站，例如 GitHub Pages、Netlify、Cloudflare Pages、vercel之类的。
 
 当然你也可以将其部署在自己的服务器上。
 
@@ -80,7 +80,7 @@ Luxirty Search 基于 Google 的可编程自定义搜索引擎(Google cse)，允
 (可选)如果你想使用自己的cse，只需设置环境变量 `VITE_GOOGLE_CSE_CX` ，从这里创建你的 cse 并获取 cx： https://programmablesearchengine.google.com/about/
 
 注意：
-1. 如果你使用自己创建的 cse，那么的部署看起来会有区别，页面上的“For Program”等标签是通过 cse 的 “优化” 功能配置的。你需要先添加域名，然后添加对应标签，并在标签中选中想提升的域名。
+1. 如果你使用自己创建的 cse，那么的部署看起来会有区别，页面上的 “For Program” 等标签是通过 cse 的 “优化” 功能配置的。你需要先添加域名，然后添加对应标签，并在标签中选中想提升的域名。
 2. 你还需要修改 opensearch.xml 中的域名，详细请看 https://github.com/KoriIku/luxirty-search/issues/14
 
 ## 一键部署(推荐)
