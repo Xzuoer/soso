@@ -4,7 +4,7 @@
       <a href="https://luxirty.com/posts/luxirty-search/" target="_blank">关于</a>
     </div>
     <div class="logo">
-      Luxirty Search
+      Meet搜索
     </div>
     <div class="search-container">
       <div class="gcse-searchbox-only" data-resultsUrl="search"></div>
@@ -13,10 +13,7 @@
     <!-- 添加页脚 -->
     <footer>
       <p>
-        &copy; Create by <a href="https://luxirty.com/about/" target="_blank">Luxirty</a> with Love |
-        Open Source on <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          GitHub
-        </a>
+        &copy; Create by <a href="" target="_blank">Meet搜索</a>
       </p>
     </footer>
   </div>
